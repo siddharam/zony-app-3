@@ -1,0 +1,25 @@
+{
+  "intentId": "string",
+  "threadId": "string",
+  "userId": "string",
+  "intent": {
+    "intentName": "string",
+    "displayName": "string",
+    "description": "string",
+    "slots": [
+      {
+        "name": "string",
+        "type": "string",
+        "required": "boolean",
+        "description": "string"
+      }
+    ],
+    "filledSlots": {
+      "<slot_name>": "<slot_value>"
+    }
+  },
+  "vector_embedding": "[...number]",
+  "updated_at": {
+    "$date": "string"
+  }
+} 
